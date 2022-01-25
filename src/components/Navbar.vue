@@ -6,9 +6,9 @@
   
 		 <header id="header">
     <div class="d-flex flex-column">
-
+<!-- HEADER IN NAV -->
       <div class="profile">
-        <img src="" alt="" class="img-fluid rounded-circle">
+        <img src="https://i.postimg.cc/pTtYQqTn/fall-g93027d2b4-1920.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Hannah</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="github"><i class='bx bxl-github'></i></a>
@@ -17,7 +17,7 @@
           <a href="#" class="codepen"><i class='bx bxl-codepen'></i></a>
         </div>
       </div>
-
+<!-- NAVBAR -->
       <nav id="navbar" class="nav-menu navbar">
         <ul>
     <router-link to="/">Home</router-link> <br>
@@ -27,15 +27,11 @@
               <router-link to="/Contact">Contact</router-link>
       
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav><!--END NAV -->
     </div>
-  </header><!-- End Header -->
-
-
+  </header><!-- END HEADER -->
 
     <router-view/>
-
-
 </template>
 
 <script>
@@ -62,7 +58,7 @@ export default {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 4px solid #2c2f3f;
 }
 #header .profile h1 {
   font-size: 24px;
