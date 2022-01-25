@@ -1,15 +1,18 @@
 <template>
 <Navbar/>
-       <h1>Projects</h1>
+  <h1>Projects</h1>
 <div v-for="projects in Projects" :key="projects.id" class="projects"></div>
- <router-link :to="{name:'ProjectDetails', params: { id:projects.is}}"> 
+ <router-link :to="{name:'ProjectDetails', params: { id:projects.id}}"> 
    <h2>{{ projects.title }}</h2>
  </router-link>
- <h2>{{ projects.title }}</h2>
 
-            <button @click="redirect">Redirect</button>
-            <button @click="back"> Go back</button>
-            <button @click="forward">Go Forward</button>
+
+
+
+
+          <button @click="redirect">Redirect</button>
+          <button @click="back"> Go back</button>
+          <button @click="forward">Go Forward</button>
 </template>
 
 <script>
@@ -18,11 +21,12 @@ import Navbar from '../components/Navbar.vue'
 
 export default {
 
-  components: {Navbar,},
+components: {Navbar,},
 
 data() {
     return {
-        projects:[]
+
+        projects:['']
     }
 },
 
