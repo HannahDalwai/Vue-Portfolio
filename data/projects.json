@@ -1,0 +1,7 @@
+{
+    "projects": [
+        {"title":"E-commerance","id":"1","details":"abc"},
+        {"title":"Calculator","id":"2","details":"def"},
+        {"title":"FlipCards","id":"3","details":"ghi"}
+    ]
+}
