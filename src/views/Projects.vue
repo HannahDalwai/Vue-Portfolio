@@ -2,9 +2,9 @@
 <Navbar/>
   <h1>Projects</h1>
   <div v-if="projects.length">
-    <div v-for="projects in Projects" :key="projects.id" class="projects">
-        <router-link :to="{name:'ProjectDetails', params: { id:projects.id}}"> 
-          <h2>{{ projects.title }}</h2>
+    <div v-for="project in projects" :key="project.id" class="projects">
+        <router-link :to="{name:'ProjectDetails', params: { id:project.id}}"> 
+          <h2>{{ project.title }}</h2>
         </router-link>
     </div>
   </div>
@@ -34,7 +34,7 @@ data() {
 mounted() {
     fetch('http://localhost:3000/projects')
      .then((res)=> res.json())
-      .then(data=>this.projects=data)
+      .then(data => this.projects=data)
        .catch(err => console.log(err.message))
 },
 
