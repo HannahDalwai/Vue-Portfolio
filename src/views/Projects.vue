@@ -1,12 +1,13 @@
 <template>
 <Navbar/>
   <h1>Projects</h1>
-<div v-for="projects in Projects" :key="projects.id" class="projects"></div>
- <router-link :to="{name:'ProjectDetails', params: { id:projects.id}}"> 
-   <h2>{{ projects.title }}</h2>
- </router-link>
-
-
+  <div v-if="projects.length">
+    <div v-for="projects in Projects" :key="projects.id" class="projects">
+        <router-link :to="{name:'ProjectDetails', params: { id:projects.id}}"> 
+          <h2>{{ projects.title }}</h2>
+        </router-link>
+    </div>
+  </div>
 
 
 
@@ -26,7 +27,7 @@ components: {Navbar,},
 data() {
     return {
 
-        projects:['']
+        projects:[]
     }
 },
 
