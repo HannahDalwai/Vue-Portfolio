@@ -5,6 +5,7 @@ import Projects from '../views/Projects.vue'
 import Testimonials from '../views/Testimonials.vue'
 import Contact from '../views/Contact.vue'
 import notFound from '../views/Error.vue'
+import ProjectDetails from '../views/ProjectDetails.vue'
 
 const routes = [
   {
@@ -32,6 +33,13 @@ const routes = [
     name: 'Contact',
     component: Contact
   },
+
+  {
+    path:'/ProjectDetails',
+    name:'ProjectDetails' ,
+    component:ProjectDetails
+  },
+
   // CATCH ALL 404
   {
     path:'/:catchAll(.*)',
