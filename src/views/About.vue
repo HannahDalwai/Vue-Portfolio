@@ -1,13 +1,18 @@
 <template>
-  
+  <Navbar/>
+
 </template>
 
 <script>
-export default {
 
-}
-</script>
-methods: {
+import Navbar from '../components/Navbar.vue'
+
+export default {
+   components: {Navbar},
+   
+   methods: {
+ 
+
     redirect(){
        this.$router.push({name:'Home'})
     },
@@ -18,6 +23,9 @@ methods: {
        this.$router.go(1)
     }
   },
+}
+</script>
+
 <style>
 
 </style>

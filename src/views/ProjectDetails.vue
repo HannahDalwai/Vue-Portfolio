@@ -1,4 +1,6 @@
 <template>
+<Navbar/>
+
        <h1>Projects</h1> 
         <h3>this is a project</h3>
          <p>the projects id is {{ $route.params.id }}</p>
@@ -7,13 +9,18 @@
 </template>
 
 <script>
+  import Navbar from '../components/Navbar.vue'
+
+
 export default {
-props:['id'],
-data() {
-    return {
-        projects:null
-    }
-},
+    components: {Navbar,},
+
+      props:['id'],
+      data() {
+          return {
+              projects:null
+          }
+      },
 
 mounted() {
     fetch('http://localhost:3000/projects/'+ this.id)
