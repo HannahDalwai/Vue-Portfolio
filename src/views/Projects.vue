@@ -8,6 +8,10 @@
         </router-link>
     </div>
   </div>
+  <div v-else>
+    loading projects
+  </div>
+
 
 
 
@@ -26,7 +30,6 @@ components: {Navbar},
 
 data() {
     return {
-
         projects:[]
     }
 },

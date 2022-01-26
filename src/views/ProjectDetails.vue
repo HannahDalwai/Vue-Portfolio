@@ -2,9 +2,11 @@
 <Navbar/>
 
        <h1>Projects</h1> 
+       <div v-if="projects">
         <h3>this is a project</h3>
          <p>the projects id is {{ $route.params.id }}</p>
-        
+      </div>
+      <div v-else> loading project details</div>
             
 </template>
 
@@ -13,7 +15,7 @@
 
 
 export default {
-    components: {Navbar,},
+    components: {Navbar},
 
       props:['id'],
       data() {
