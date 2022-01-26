@@ -45,7 +45,7 @@ nav {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #222;
+  background: #333;
   width: 280px;
   height: 700px;
   transition: all 0.1s linear;
@@ -112,7 +112,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #631C48;
+  background-color: #6762a6;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -131,7 +131,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
     margin: 15px 20px;
     display: block;
     width: 120px;
-    border: 4px solid #631C48;
+    border: 4px solid #6762a6;
   }
 
 .profile h1 {
@@ -163,7 +163,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   transition: 0.3s;
 }
 .profile .social-links a:hover {
-  background: #631C48;
+  background: #6762a6;
   color: #fff;
   text-decoration: none;
 } 
