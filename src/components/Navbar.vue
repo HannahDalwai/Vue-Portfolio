@@ -1,10 +1,10 @@
 <template>
  <button class="mobile-nav" @click="openNav()">Open</button>
 
-<!-- HEADER IN NAV -->
-<header id="header">
-  <div class="d-flex flex-column">
-   <div class="profile">
+<!-- NAVBAR -->
+            <nav id="navbar" class="nav-menu navbar">
+
+      <div class="profile">
         <img src="https://i.postimg.cc/pTtYQqTn/fall-g93027d2b4-1920.jpg" alt="" class="img-fluid rounded-circle">
           <h1 class="text-light"><a href="index.html">Hannah</a></h1>
             <div class="social-links mt-3 text-center">
@@ -15,8 +15,6 @@
             </div>
   </div>
 
-<!-- NAVBAR -->
-            <nav id="navbar" class="nav-menu navbar">
                <button class="mobile-nav" @click="openNav()">Open</button>
                   <ul>
                     <li> <router-link to="/"><i class='bx bxs-home' ></i>  Home</router-link>   </li>
@@ -25,8 +23,6 @@
                     <li>   <router-link to="/Contact"><i class='bx bxs-chat'></i>  Contact</router-link> </li>
                   </ul>
             </nav>
-    </div>
-</header><!-- END HEADER -->
 
 <router-view/>
 </template>
@@ -35,7 +31,6 @@
 export default {
 methods: {
   openNav(){
-Header
        document.querySelector("nav").classList.toggle("active");
   }
 },
@@ -119,8 +114,8 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
 
 
 
-                          /* HEADER */
-.header{
+                          /* PROFILE IN NAV */
+/* .header{
 position: fixed;
   top: 0;
   left: 0;
@@ -170,5 +165,5 @@ position: fixed;
   background: #149ddd;
   color: #fff;
   text-decoration: none;
-}
+} */
 </style>
