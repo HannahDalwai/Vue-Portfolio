@@ -1,13 +1,14 @@
 <template>
       
     <Navbar/>
-    <div class="container"> 
+    <!-- <div class="container"> 
       <button @click="back"><i class='bx bx-left-arrow-alt bx-fade-left-hover' ></i></button>
       <button @click="redirect"><i class='bx bxs-home' ></i></button>
       <button @click="forward"><i class='bx bx-right-arrow-alt bx-fade-right-hover'></i></button> 
-     </div>
-     
-  <router-view/>
+     </div> -->
+    <main>
+      <router-view/>
+    </main>
 </template>
 
 <script>

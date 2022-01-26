@@ -126,7 +126,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
 
  /* PROFILE IN NAV */
 .profile img {
-    margin: 15px auto;
+    margin: 15px 20px;
     display: block;
     width: 120px;
     border: 4px solid #631C48;
@@ -146,6 +146,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   text-decoration: none;
 }
 .profile .social-links a {
+  text-decoration:none;
   font-size: 18px;
   display: inline-block;
   background: #212431;
