@@ -1,11 +1,5 @@
 <template>
-      
     <Navbar/>
-    <!-- <div class="container"> 
-      <button @click="back"><i class='bx bx-left-arrow-alt bx-fade-left-hover' ></i></button>
-      <button @click="redirect"><i class='bx bxs-home' ></i></button>
-      <button @click="forward"><i class='bx bx-right-arrow-alt bx-fade-right-hover'></i></button> 
-     </div> -->
     <main>
       <router-view/>
     </main>
@@ -13,21 +7,11 @@
 
 <script>
 
- import Navbar from '../src/components/Navbar.vue'
+import Navbar from '../src/components/Navbar.vue'
 
 export default {
     components: {Navbar},
-     methods: {
-    redirect(){
-       this.$router.push({name:'Home'})
-    },
-    back(){
-      this.$router.go(-1)
-    },
-    forward(){
-       this.$router.go(1)
-    }
-  },
+     methods: {},
 }
 </script>
 
@@ -39,9 +23,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.container{
-  margin-left: 50px;
-
+main {
+  margin-left: 280px;
+  transition: all 0.3s linear;
+  display: flex;
+ 
 }
 
 

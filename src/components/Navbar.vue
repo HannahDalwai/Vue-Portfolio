@@ -36,7 +36,9 @@ methods: {
 
 <style>
 
-
+#navbar{
+  position: fixed;
+}
 
 nav {
   position: fixed;
