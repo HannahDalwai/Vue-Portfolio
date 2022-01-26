@@ -1,9 +1,8 @@
 <template>
- <button class="mobile-nav" @click="openNav()">Open</button>
+ <i class="mobile-nav" @click="openNav()"><i class='bx bx-menu'></i></i>
 
 <!-- NAVBAR -->
             <nav id="navbar" class="nav-menu navbar">
-
                 <div class="profile">
                   <img src="https://i.postimg.cc/pTtYQqTn/fall-g93027d2b4-1920.jpg" alt="" class="img-fluid rounded-circle">
                     <h1 class="text-light"><a href="index.html">Hannah</a></h1>
@@ -14,15 +13,15 @@
                         <a href="#" class="codepen" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Codepen"><i class='bx bxl-codepen'></i></a>
                       </div>
                 </div>
-               <button class="mobile-nav" @click="openNav()">Open</button>
                   <ul>
                     <li> <router-link to="/"><i class='bx bxs-home' ></i>  Home</router-link>   </li>
                     <li><router-link to="/About"><i class='bx bxs-info-circle'></i>  About</router-link></li>
                     <li>  <router-link to="/Projects"><i class='bx bx-book-content'></i>  Projects</router-link> </li>
+                    <li>  <router-link to="/Testimonials"><i class='bx bx-book-content'></i>  Testimonials</router-link> </li>
                     <li>   <router-link to="/Contact"><i class='bx bxs-chat'></i>  Contact</router-link> </li>
                   </ul>
             </nav>
-<router-view/>
+
 </template>
 
 <script>
@@ -46,7 +45,7 @@ nav {
   bottom: 0;
   background: #222;
   width: 280px;
-  height: 100%;
+  height: 700px;
   transition: all 0.1s linear;
   padding: 30px 0 0 0;
 }
@@ -103,14 +102,29 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
     margin-left: 0;
   }
   .mobile-nav {
-    display: block;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #a274ac;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
     
   }
 }
 
-
-
-                          /* PROFILE IN NAV */
+ /* PROFILE IN NAV */
 .profile img {
     margin: 15px auto;
     display: block;

@@ -1,9 +1,13 @@
 <template>
+      
     <Navbar/>
-    <router-view/>
- <button @click="redirect">Redirect</button>
+    <div class="container"> 
+      <button @click="redirect">Redirect</button>
       <button @click="back"> Go back</button>
-      <button @click="forward">Go Forward</button>
+      <button @click="forward">Go Forward</button> 
+     </div>
+     
+  <router-view/>
 </template>
 
 <script>
@@ -12,6 +16,17 @@
 
 export default {
     components: {Navbar},
+     methods: {
+    redirect(){
+       this.$router.push({name:'Home'})
+    },
+    back(){
+      this.$router.go(-1)
+    },
+    forward(){
+       this.$router.go(1)
+    }
+  },
 }
 </script>
 
@@ -22,6 +37,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.container{
+  margin-left: 50px;
+  
 }
 
 
