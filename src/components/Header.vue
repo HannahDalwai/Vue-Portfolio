@@ -1,8 +1,8 @@
 <template>
 
 <header>
-  {{ title }} <br>
-  <img src="https://i.postimg.cc/8khf9GsW/vue-sunet.jpg" alt="img" >
+  <!-- {{ title }} <br>
+  <img src="https://i.postimg.cc/8khf9GsW/vue-sunet.jpg" alt="img" > -->
 </header>
 
  
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-props:["title"],
+// props:["title"],
 };
 </script>
 
