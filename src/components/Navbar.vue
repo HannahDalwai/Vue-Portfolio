@@ -32,7 +32,6 @@
 </template>
 
 <script>
-import Header from './Header.vue';
 export default {
 methods: {
   openNav(){
