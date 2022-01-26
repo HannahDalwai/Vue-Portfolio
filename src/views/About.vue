@@ -107,7 +107,7 @@
          <div class="card">
               <div class="face face1">
                   <div class="content">
-                  <img src="#">
+                  <img src="https://i.postimg.cc/sg7FcVPH/4691448-dot-js-vue-icon.png">
                     <h3>Vue</h3>
                   </div>
               </div>
