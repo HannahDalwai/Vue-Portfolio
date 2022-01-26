@@ -2,7 +2,7 @@
     <!-- <div id="nav" role="navigation" class="nav nav-pills">
   </div> -->
 
-
+ <button class="mobile-nav" onclick="openNav()">Open</button>
   
 		 <header id="header">
     <div class="d-flex flex-column">
@@ -36,7 +36,9 @@
 
 <script>
 export default {
-
+methods: {
+  
+},
 }
 </script>
 
@@ -121,6 +123,7 @@ export default {
   list-style: none;
   text-decoration: none;
 
+
 }
 .nav-menu > ul > li {
   position: relative;
@@ -129,12 +132,12 @@ export default {
 }
 .nav-menu a, .nav-menu a:focus {
   display: flex;
-  align-items: center;
+  align-items:initial;
   color: #a8a9b4;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 18px;
   
 
 }
