@@ -29,6 +29,16 @@ main {
   display: flex;
  
 }
+@media (max-width: 900px) {
+  
+main {
+  margin-left: 0;
+  transition: all 0.3s linear;
+  display: flex;
+ 
+}
+
+}
 
 
 </style>
