@@ -11,20 +11,20 @@
         <img src="https://i.postimg.cc/pTtYQqTn/fall-g93027d2b4-1920.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Hannah</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="github"><i class='bx bxl-github'></i></a>
-          <a href="#" class="netlify"><i class='bx bxl-netlify'></i></a>
-          <a href="#" class="linkedin"><i class='bx bxl-linkedin'></i></a>
-          <a href="#" class="codepen"><i class='bx bxl-codepen'></i></a>
+          <a href="#" class="github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github"><i class='bx bxl-github'></i></a>
+          <a href="#" class="netlify" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Netlify"><i class='bx bxl-netlify'></i></a>
+          <a href="#" class="linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"><i class='bx bxl-linkedin'></i></a>
+          <a href="#" class="codepen" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Codepen"><i class='bx bxl-codepen'></i></a>
         </div>
       </div>
 <!-- NAVBAR -->
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-    <router-link to="/">Home</router-link> <br>
-      <router-link to="/About">About</router-link> <br>
-          <router-link to="/Projects">Projects</router-link> <br>
-            <router-link to="/Testimonials">Testimonials</router-link> <br>
-              <router-link to="/Contact">Contact</router-link>
+    <router-link to="/"><i class='bx bxs-home' ></i>  Home</router-link> <br>
+      <router-link to="/About"><i class='bx bxs-info-circle'></i>  About</router-link> <br>
+          <router-link to="/Projects"><i class='bx bx-book-content'></i>  Projects</router-link> <br>
+            <router-link to="/Testimonials"><i class='bx bx-face'></i>  Testimonials</router-link> <br>
+              <router-link to="/Contact"><i class='bx bxs-chat'></i>  Contact</router-link>
       
         </ul>
       </nav><!--END NAV -->
@@ -88,7 +88,7 @@ export default {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #9B95BF;
+  background: #8e88b1;
   color: #fff;
   text-decoration: none;
 }
