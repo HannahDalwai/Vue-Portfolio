@@ -1,6 +1,6 @@
 <template>
 
-<h1>something</h1>
+<h1>home</h1>
  
 </template>
 
@@ -8,7 +8,7 @@
 
 
 export default {
-  // name: 'Home',
+  
   components: {},
  
 }

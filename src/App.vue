@@ -2,9 +2,9 @@
       
     <Navbar/>
     <div class="container"> 
-      <button @click="redirect">Redirect</button>
-      <button @click="back"> Go back</button>
-      <button @click="forward">Go Forward</button> 
+      <button @click="back"><i class='bx bx-left-arrow-alt bx-fade-left-hover' ></i></button>
+      <button @click="redirect"><i class='bx bxs-home' ></i></button>
+      <button @click="forward"><i class='bx bx-right-arrow-alt bx-fade-right-hover'></i></button> 
      </div>
      
   <router-view/>
@@ -40,7 +40,7 @@ export default {
 }
 .container{
   margin-left: 50px;
-  
+
 }
 
 

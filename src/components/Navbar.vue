@@ -17,7 +17,7 @@
                     <li> <router-link to="/"><i class='bx bxs-home' ></i>  Home</router-link>   </li>
                     <li><router-link to="/About"><i class='bx bxs-info-circle'></i>  About</router-link></li>
                     <li>  <router-link to="/Projects"><i class='bx bx-book-content'></i>  Projects</router-link> </li>
-                    <li>  <router-link to="/Testimonials"><i class='bx bx-book-content'></i>  Testimonials</router-link> </li>
+                    <li>  <router-link to="/Testimonials"><i class='bx bx-user'></i> Testimonials</router-link> </li>
                     <li>   <router-link to="/Contact"><i class='bx bxs-chat'></i>  Contact</router-link> </li>
                   </ul>
             </nav>
@@ -80,7 +80,7 @@ nav a:hover, nav .active, nav .active:focus, nav li:hover > a {
   color: #fff;
 }
 nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
-  color: #149ddd;
+  color: white;
 }
 
 /* RESPONSIVE nav */
@@ -110,7 +110,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #a274ac;
+  background-color: #631C48;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -129,7 +129,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #2c2f3f;
+    border: 4px solid #631C48;
   }
 
 .profile h1 {
@@ -139,9 +139,9 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+ 
 }
-.profile h1 a, #header .profile h1 a:hover {
+.profile h1 a,.profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -160,7 +160,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   transition: 0.3s;
 }
 .profile .social-links a:hover {
-  background: #149ddd;
+  background: #631C48;
   color: #fff;
   text-decoration: none;
 } 
