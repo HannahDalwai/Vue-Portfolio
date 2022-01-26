@@ -58,7 +58,7 @@ export default {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 4px solid #2c2f3f;
+  border: 4px solid #9B95BF;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -88,7 +88,7 @@ export default {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #9B95BF;
   color: #fff;
   text-decoration: none;
 }
@@ -110,17 +110,22 @@ export default {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
 .nav-menu {
   padding: 30px 0 0 0;
+  margin-left:38px ;
 }
 .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+
 }
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
+  
 }
 .nav-menu a, .nav-menu a:focus {
   display: flex;
@@ -130,6 +135,8 @@ export default {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  
+
 }
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 24px;
@@ -141,7 +148,7 @@ export default {
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #9B95BF;
 }
 
 /* Mobile Navigation */
@@ -154,7 +161,7 @@ export default {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #9B95BF;
   color: #fff;
   width: 40px;
   height: 40px;
