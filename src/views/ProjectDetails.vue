@@ -1,5 +1,5 @@
 <template>
-<Navbar/>
+
 
        <h1>Projects</h1> 
        <div v-if="projects">
@@ -11,11 +11,11 @@
 </template>
 
 <script>
-  import Navbar from '../components/Navbar.vue'
+
 
 
 export default {
-    components: {Navbar},
+    components: {},
 
       props:['id'],
       data() {

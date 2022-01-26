@@ -1,5 +1,5 @@
 <template>
-<Navbar/>
+
   <h1>Projects</h1>
   <div v-if="projects.length">
     <div v-for="project in projects" :key="project.id" class="projects">
@@ -22,11 +22,10 @@
 
 <script>
 
-import Navbar from '../components/Navbar.vue'
 
 export default {
 
-components: {Navbar},
+components: {},
 
 data() {
     return {
