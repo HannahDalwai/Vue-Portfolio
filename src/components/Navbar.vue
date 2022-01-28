@@ -53,6 +53,17 @@ nav {
 }
 /* OTHER NAV STYLING */
 
+ul{
+   position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  width: 280px;
+  height: 700px;
+  transition: all 0.1s linear;
+  padding: 30px 0 0 0;
+}
 
 nav * {
   margin: 0;
