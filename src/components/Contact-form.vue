@@ -7,7 +7,7 @@
 					<li><i class="fa fa-road"></i> Cape Town, South Africa</li>
 					<li><i class="fa fa-phone"></i>(+27) 074 525 0800</li>
 					<li><i class="fa fa-envelope"></i> hannahdalwai4@gmail.com</li>
-					<img src="image/logo.png" alt="">
+					<img src="" alt="">
 				</ul>
 		</div>
 		<div class='contact'>
