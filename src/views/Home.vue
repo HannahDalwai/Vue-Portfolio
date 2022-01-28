@@ -1,15 +1,16 @@
 <template>
 
-<h1>home</h1>
+<landing-page/>
  
 </template>
 
 <script>
+import LandingPage from '../components/LandingPage.vue'
 
 
 export default {
   
-  components: {},
+  components: {LandingPage},
  
 }
 </script>
