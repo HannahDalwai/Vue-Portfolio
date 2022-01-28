@@ -1,8 +1,10 @@
 <template>
-  
-<h1>contact</h1> 
-<br>
 <contact-form/>
+
+
+
+
+
 </template>
 
 <script>
@@ -19,4 +21,5 @@ methods: {},
 </script>
 
 <style>
+
 </style>

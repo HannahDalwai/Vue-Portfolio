@@ -38,6 +38,7 @@ methods: {
 
 #navbar{
   position: fixed;
+  background:  #323D88;
 }
 
 nav {
@@ -45,7 +46,6 @@ nav {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #333;
   width: 280px;
   height: 700px;
   transition: all 0.1s linear;
@@ -53,17 +53,7 @@ nav {
 }
 /* OTHER NAV STYLING */
 
-ul{
-   position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background: #333;
-  width: 280px;
-  height: 700px;
-  transition: all 0.1s linear;
-  padding: 30px 0 0 0;
-}
+
 
 nav * {
   margin: 0;
@@ -86,7 +76,7 @@ nav a, nav a:focus {
 nav a i, nav a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #eee;
 }
 nav a:hover, nav .active, nav .active:focus, nav li:hover > a {
   text-decoration: none;
@@ -158,6 +148,9 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   color: #fff;
   text-decoration: none;
 }
+.profile .social-links{
+  margin-left: 60px;
+}
 .profile .social-links a {
   text-decoration:none;
   font-size: 18px;
@@ -166,7 +159,8 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  /* margin-left: px; */
+  margin-right: 5px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -175,7 +169,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
 }
 .profile .social-links a:hover {
   background: #6762a6;
-  color: #fff;
+  color: #555;
   text-decoration: none;
 } 
 </style>
