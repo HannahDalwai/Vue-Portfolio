@@ -3,17 +3,54 @@
     <main>
       <router-view/>
     </main>
+<section id="home">
+<landing-page/>
+</section>
+
+
+
+
+
+
 </template>
 
 <script>
 
+
+
+
+
+
+
+
+
 import Navbar from '../src/components/Navbar.vue'
+import LandingPage from './components/LandingPage.vue'
+
+
+
+
+
+
+
 
 export default {
     components: {Navbar},
      methods: {},
-}
+
+        LandingPage}
 </script>
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 #app {
