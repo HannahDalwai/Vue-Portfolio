@@ -1,14 +1,17 @@
 <template>
   
-<h1>contact</h1>
+<h1>contact</h1> 
+<br>
+<contact-form/>
 </template>
 
 <script>
+import ContactForm from '../components/Contact-form.vue'
 
 
 
 export default {
-    components: {},
+    components: {ContactForm},
 
 
 methods: {},
@@ -16,5 +19,4 @@ methods: {},
 </script>
 
 <style>
-
 </style>
