@@ -7,6 +7,7 @@
       </form>
 
 
+
       <p>Email: {{ email }}</p>
       <p>Name: {{ name }}</p>
 </template>

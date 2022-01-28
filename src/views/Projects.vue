@@ -5,6 +5,7 @@
     <div v-for="project in projects" :key="project.id" class="projects">
         <router-link :to="{name:'ProjectDetails', params: { id:project.id}}"> 
           <h2>{{ project.title }}</h2>
+
         </router-link>
     </div>
   </div>
@@ -37,6 +38,7 @@ export default {
             .then(data => this.projects=data)
             .catch(err => console.log(err.message))
       }
+         
 }
 </script>
 
