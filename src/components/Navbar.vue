@@ -75,7 +75,7 @@ nav a, nav a:focus {
 }
 nav a i, nav a:focus i {
   font-size: 24px;
-  padding-right: 8px;
+
   color: #eee;
 }
 nav a:hover, nav .active, nav .active:focus, nav li:hover > a {
@@ -129,15 +129,17 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
 
  /* PROFILE IN NAV */
 .profile img {
-    margin: 15px 20px;
+  margin-left: 80px;
+  margin-top: 0;
     display: block;
     width: 120px;
+    height: 100px;
     border: 4px solid #6762a6;
   }
 
 .profile h1 {
   font-size: 24px;
-  margin: 0;
+  margin-left: 60px;
   padding: 0;
   font-weight: 600;
   -moz-text-align-last: center;
