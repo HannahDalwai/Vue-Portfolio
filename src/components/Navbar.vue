@@ -59,10 +59,15 @@ nav * {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+
 }
+
 nav > ul > li {
   position: relative;
   white-space: nowrap;
+  margin-left: 60px;
+  margin-bottom: 30px;
 }
 nav a, nav a:focus {
 
