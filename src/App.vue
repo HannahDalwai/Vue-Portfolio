@@ -4,7 +4,6 @@
       <router-view/>
     </main>
 <section id="home">
-<landing-page/>
 </section>
 
 
@@ -25,7 +24,7 @@
 
 
 import Navbar from '../src/components/Navbar.vue'
-import LandingPage from './components/LandingPage.vue'
+
 
 
 
@@ -35,10 +34,8 @@ import LandingPage from './components/LandingPage.vue'
 
 
 export default {
-    components: {Navbar},
-     methods: {},
-
-        LandingPage}
+    components: {Navbar}
+}
 </script>
 
 
