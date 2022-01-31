@@ -7,10 +7,10 @@
                   <img src="https://i.postimg.cc/pTtYQqTn/fall-g93027d2b4-1920.jpg" alt="" class="img-fluid rounded-circle">
                     <h1 class="display-6"><a href="index.html">Hannah</a></h1>
                       <div class="social-links mt-3 text-center">
-                        <a target="_blank" href="https://github.com/HannahDalwai" class="github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github"><i class='bx bxl-github'></i></a>
-                        <a target="_blank" href="#" class="netlify" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Netlify"><i class='bx bxl-netlify'></i></a>
-                        <a target="_blank" href="#" class="linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"><i class='bx bxl-linkedin'></i></a>
-                        <a target="_blank" href="https://codepen.io/HannahDalwai" class="codepen" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Codepen"><i class='bx bxl-codepen'></i></a>
+                        <a href="#" class="github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="netlify" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Netlify"><i class='bx bxl-netlify'></i></a>
+                        <a href="#" class="linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="codepen" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Codepen"><i class='bx bxl-codepen'></i></a>
                       </div>
                 </div>
                   <ul>
