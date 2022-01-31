@@ -83,7 +83,7 @@ nav a i, nav a:focus i {
 }
 
 nav a:hover, nav .active, nav .active:focus, nav li:hover > a {
-  text-decoration: none;
+  text-decoration: none; 
   color: #fff;
 }
 
@@ -97,6 +97,7 @@ nav a:hover i, .nav .active i, nav .active:focus i, nav li:hover > a i {
                       top: 20px;
                       right: 20px;
                       display: none;
+                      
                     }
 
                     @media screen and (max-width: 900px) {
